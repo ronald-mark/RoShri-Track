@@ -1,0 +1,1596 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "AdminTruckCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "AdminTruckDataQuery",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "PayableBeneficiary",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "addTruck",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "TruckName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TruckCapacity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "DepartureDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "carrierTemp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "carrierCondition",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "damageProof",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "testdoneby",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TestHash",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "TruckStatus",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_farmer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "memory_FarmerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "memory_regnID",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_FarmerPinCode",
+						"type": "uint32"
+					},
+					{
+						"internalType": "bool",
+						"name": "_keyStatus",
+						"type": "bool"
+					}
+				],
+				"name": "CreateFamer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "FarmerCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "FarmerList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "FarmerQuery",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "addFarmer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "FMname",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "RegID",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "FarmerPinCode",
+						"type": "uint32"
+					},
+					{
+						"internalType": "bool",
+						"name": "FSSAIcertified",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "IndustryCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "LabCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "LabQuery",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "addLab",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "QAName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "AcredNo",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "TestDoneBy",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "LabPinCode",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "PrdctCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "PrdctDataQuery",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "addProd",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "prodName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "prodHash",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dateOfHarvesting",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "LabTestDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "QRCode",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "QAPass",
+						"type": "bool"
+					},
+					{
+						"internalType": "address",
+						"name": "testDoneBy",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Farmer",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "LabTestStatus",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "PrdctList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ProcessIndustryList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "ProcessIndustryQuery",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "addIndustryAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "IndustryName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "NABL",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "NABLvalidity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "FSSAIregno",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "FSSAIregnoValidUpto",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "plantPinCode",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "ProDoneBy",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "plantStatus",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "QALablist",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "QRquery",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "addProd",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "prodName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "prodHash",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dateOfHarvesting",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "LabTestDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "QRCode",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "QAPass",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "LabTestStatus",
+						"type": "bool"
+					},
+					{
+						"internalType": "address",
+						"name": "Farmer",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "TestDoneBy",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Techparam",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "Temp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "pH",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "protein",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fatPercent",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "size",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "QALabTestPass",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "TruckList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "_pcsStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_prodName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_quantity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dateOfHarvesting",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_prodHash",
+						"type": "uint256"
+					}
+				],
+				"name": "addPrdct",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addProd",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_prodName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ProdHash",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_quantity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_dateOfHarvesting",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_LabTestDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_QRCode",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_QAPass",
+						"type": "bool"
+					},
+					{
+						"internalType": "address",
+						"name": "_testDoneBy",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_Farmer",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "_LabTestStatus",
+						"type": "bool"
+					}
+				],
+				"name": "addPrdctData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_ShrimpQAquery",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_batchCount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_QRCodes",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "string",
+						"name": "_pcsHash",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_pcsMethod",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_BBD",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_PrdctQualityPass",
+						"type": "bool"
+					}
+				],
+				"name": "addProcessData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "payable_beneficiary",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_sampleID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_QR",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_Temp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pH",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_protein",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_fatPercent",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_size",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_QAPass",
+						"type": "bool"
+					}
+				],
+				"name": "addQAData",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_QALab",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_QALabName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_NABLaccredNo",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_TestDoneBy",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_LabPinCode",
+						"type": "uint32"
+					}
+				],
+				"name": "addQALab",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_ShrimpIndustryAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_ProDoneBy",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_IndustryName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_NABLAccredNo",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_NABLAccredValidUpto",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_FSSAIRegNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_FSSAILicenseValidUpto",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ShrimpPinCode",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_ShrimpStatus",
+						"type": "bool"
+					}
+				],
+				"name": "addShrimpIndustryData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_VSCS",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_batchQR",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ShrimpTemp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_fatPrecent",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_batchpH",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_sensoryTestPass",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "_adulterantTestPass",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "_chemContTestPass",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "_microContamTestPass",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "_preprocessTestPass",
+						"type": "bool"
+					}
+				],
+				"name": "addShrimpQAData",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addTruck",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_PayableBeneficiary",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_TruckName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_quantity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_dateOfDeparture",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_carrierTemp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_carrierCondition",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_damageProof",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_testdoneby",
+						"type": "address"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_TruckHash",
+						"type": "uint32"
+					},
+					{
+						"internalType": "bool",
+						"name": "_TruckStatus",
+						"type": "bool"
+					}
+				],
+				"name": "addTruckData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					}
+				],
+				"name": "checkShrimp",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_ShrimpIndustryAddress",
+						"type": "address"
+					}
+				],
+				"name": "checkShrimpIndustry",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_QRData",
+						"type": "uint256"
+					}
+				],
+				"name": "fetchProductBasicDetails",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "addProd",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "prodName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "prodHash",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "quantity",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "dateOfHarvesting",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "LabTestDate",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "QRCode",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "QAPass",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "LabTestStatus",
+								"type": "bool"
+							},
+							{
+								"internalType": "address",
+								"name": "Farmer",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "TestDoneBy",
+								"type": "address"
+							}
+						],
+						"internalType": "struct Productcontract.PrdctData",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "addFarmer",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "FMname",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "RegID",
+								"type": "string"
+							},
+							{
+								"internalType": "uint32",
+								"name": "FarmerPinCode",
+								"type": "uint32"
+							},
+							{
+								"internalType": "bool",
+								"name": "FSSAIcertified",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct stakeholders.FarmerRegister",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "addLab",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "QAName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "AcredNo",
+								"type": "string"
+							},
+							{
+								"internalType": "uint32",
+								"name": "TestDoneBy",
+								"type": "uint32"
+							},
+							{
+								"internalType": "uint32",
+								"name": "LabPinCode",
+								"type": "uint32"
+							}
+						],
+						"internalType": "struct stakeholders.QALabRegister",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "addIndustryAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "IndustryName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "NABL",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "NABLvalidity",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "FSSAIregno",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "FSSAIregnoValidUpto",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "plantPinCode",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "ProDoneBy",
+								"type": "address"
+							},
+							{
+								"internalType": "bool",
+								"name": "plantStatus",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct stakeholders.IndustryData",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_batchQRCode",
+						"type": "uint256"
+					}
+				],
+				"name": "fetchProductTechDetails",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "Temp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "pH",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "protein",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "fatPercent",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "size",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "QALabTestPass",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct QALabcontract.TechData",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "shrimpTemp",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "prdctFat",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "pH",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "InhouseQAtime",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "SensData",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "NoAdulterants",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "NoChemCont",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "NoMicroCont",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "preProcTestpass",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "ModStatus",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct Processcontract.ShrimpQA",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "pcsHash",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "pcsMethod",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "BBD",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "processTime",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "finalPrdctQuality",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "pcsStatus",
+								"type": "bool"
+							},
+							{
+								"internalType": "address",
+								"name": "ProDoneBy",
+								"type": "address"
+							}
+						],
+						"internalType": "struct Processcontract.ProcessData",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "prdctCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "prdctTag",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "addProd",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "prodName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "prodHash",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dateOfHarvesting",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "LabTestDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "QRCode",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "QAPass",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "LabTestStatus",
+						"type": "bool"
+					},
+					{
+						"internalType": "address",
+						"name": "Farmer",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "TestDoneBy",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_digits",
+						"type": "uint256"
+					}
+				],
+				"name": "setQRDigits",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Customer_contract.sol": "Customercontract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Admin_contract.sol": {
+			"keccak256": "0x5ec7dc3899ba96a019e25e1035441db402c293503ca87032b4a161419c6a2c21",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://77e9e6cab51a84305fa3e01ea047e6a459c4b71fbb55b4ae208bd6fb1015df16",
+				"dweb:/ipfs/QmaGNMv41ZP3s279tFmT9P9qCkgrEvdaJW5UW3TspPXjDQ"
+			]
+		},
+		"Customer_contract.sol": {
+			"keccak256": "0x5bdf57c7b76d183d8279fc61ae62fa30d0a35b37a17687e0bbbadce087eb5209",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cea09f3cca305718f51821928f003a40ec09f3b37adb1929abae3b6f373db1ef",
+				"dweb:/ipfs/QmcQxvC79FTQa4rHFgTfv5rDSQbF8UZmssqT47ZExsJdf6"
+			]
+		},
+		"Processor_contract.sol": {
+			"keccak256": "0xfcd82cc7613877fe8cd901b6f33e1fcf030aea42939b145115ec0024646d2307",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b011c32e304b13b3fc562ba2d0698b41a3907ba7d2b2a84e5eee7656a835a1c",
+				"dweb:/ipfs/QmSN4c71sb2U6ULJNtK41zaNN45aqP8ZMjiYbS6U8DpmLU"
+			]
+		},
+		"Product_contract.sol": {
+			"keccak256": "0x2ca9aaa2dc0932c3661fc87c21b4b77f2ffcf75202f804d341a4ecbf379bf1cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://891e297417b6180bc9c2f337c8ddc85c18e3e779673aaf6b66a09f740773ed33",
+				"dweb:/ipfs/QmZbaKWNw5PawyT7j4w9Q8VytnnFHvavk9MyMeWx2CmDFM"
+			]
+		},
+		"QALab_contract.sol": {
+			"keccak256": "0x74635ce25f32afa97c800f1a723cf75af148bb8d21dd8863f84727d35cc09e3e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d99216a584b3c0a06a3b9cba1ff4fd731f23b935f84f1bd665c01f7665f5e624",
+				"dweb:/ipfs/QmdYRuqRYtxq6QYNjNzRwDvNyhZ749gZ6dfjPa5CNuBCRY"
+			]
+		}
+	},
+	"version": 1
+}
